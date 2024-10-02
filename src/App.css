@@ -1,0 +1,41 @@
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.row {
+  flex: 1; 
+  display: flex; 
+}
+
+.controls {
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.label_cust {
+  display: flex;
+  flex: 1;
+}
+
+.kanban-board-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.kanban-column {
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 30%;
+  min-height: 300px;
+  border-radius: 8px;
+}
+
+.kanban-ticket {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
